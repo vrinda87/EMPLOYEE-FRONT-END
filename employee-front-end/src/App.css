@@ -1,0 +1,105 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.main{
+  height: 100vh;
+  display:flex;
+  justify-content:center;
+  align-items :center;
+  flex-direction: column;
+  }
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.Background {
+  background-color: rebeccapurple; height: 100%;
+}
+.headeing {
+  color: black; 
+  align-self:  center;
+  height: 1em;
+}
+
+.form
+{
+  border-width:2px;
+  border-style:solid;
+  border-color:red;
+  margin :50px;
+}
+.img
+{
+  border-top-left-radius: .25rem; border-bottom-left-radius: .25rem;object-fit: cover; object-position: right;
+
+}
+.App-link {
+  color: skyblue;
+}
+.card-table
+{
+  border-radius: 3rem;
+  margin-left: 10rem;
+  margin-right: 10rem;
+}
+.card-form
+{
+  border-radius: 1rem;
+  margin-left: 10em;
+  margin-right: 10rem;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.header 
+{
+  background-color:plum;
+  padding: 25px;
+  text-align: center;
+  font-size: 30px;
+  
+}
+.logo
+{
+  width: 100px;
+  height: 100px ;
+}
+.nan-item Link
+{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 1px soli gray;
+    margin-right: 10px;
+}
+.nav-item A:hover
+{
+background-color: blueviolet;
+color: black !important;
+
+}
+
+
+.nav-item .navlnk {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  border: 1px solid white;
+  margin-right: 10px;
+}
+.Mainheading{
+  
+  text-align: center;
+  padding: 25px;
+}
+
